@@ -13,6 +13,7 @@ import com.mygdx.game.screens.MainScreen;
 
 public class MyGdxGame extends Game {
 	public SpriteBatch batch;
+
 	
 	@Override
 	public void create () {
@@ -24,6 +25,4 @@ public class MyGdxGame extends Game {
 	public void render () {
 		super.render();
 	}
-	
-
 }
